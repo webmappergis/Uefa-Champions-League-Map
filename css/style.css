@@ -1,0 +1,65 @@
+/* Estilize o contêiner do mapa para ocupar 100% da altura da viewport */
+#map {
+    width: 100%;
+    height: 100vh; /* 100% da altura da viewport */
+}
+
+#clubDropdown {
+    position: absolute;
+    z-index: 1000; /* Defina um valor alto para que o dropdown fique à frente do mapa */
+}
+
+.btn-container {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000; /* Valor maior do que o z-index do mapa */
+}
+
+/* Esconde a seta da popup */
+.leaflet-popup-tip-container {
+    display: none;
+}
+
+/* Esconde o botão "X" na popup */
+.leaflet-popup-close-button {
+    display: none;
+}
+
+.club-profile {
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100%; /* Ocupa toda a altura da popup */
+}
+
+.club-img {
+    display: block;
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+}
+
+
+.club-country-flag{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    transform: translate(40%, -40%);
+}
+
+.club-name{
+    font-family: "Font Awesome 5 Free";
+    text-decoration: underline;
+}
+
+  
+  
+  
+
+
+
+
+
